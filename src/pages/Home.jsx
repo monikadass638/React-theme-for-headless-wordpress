@@ -2,6 +2,7 @@ import React from 'react'
 import LatestBlogs from '../components/LatestBlogs'
 import AboutMe from '../components/AboutMe'
 import Header from "../components/Header"
+import Footer from '../components/Footer'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                 <LatestBlogs />
                 <AboutMe />
             </div>
+            <Footer />
         </>
 
 

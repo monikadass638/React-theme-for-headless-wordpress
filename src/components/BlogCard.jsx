@@ -20,7 +20,7 @@ function BlogCard({ post }) {
             </h3>
 
             <p dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></p>
-            <a href='/' className='mt-2 post-rm'>Read More</a>
+            <a href={`/blog/${post.slug}`} className='mt-2 post-rm'>Read More</a>
         </div>
     )
 }
