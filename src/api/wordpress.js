@@ -14,3 +14,10 @@ export const getallPosts = async () => {
 
   return response.json();
 };
+
+//get the single post by slug
+export const getPostBYslug = async (slug) => {
+  const response = await fetch(`${WP_API_URL}posts?slug=${slug}&_embed`);
+  console.log(response);
+  return response.json();
+};
