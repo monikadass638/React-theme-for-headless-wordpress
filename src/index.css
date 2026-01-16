@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #D4AF37;
+  --secondary-color: #0A2540;
+  --bg-color: #F9FAFB;
+  --text-color: #2c467e;
+  --muted-text: #6B7280;
+  --card-bg: #FFFFFF;
+  --headertags-color:#6B7280;
+  --anchor-color:#072070;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+p{
+  color: var(--muted-text);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--headertags-color) !important;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #4338CA;
+  border-color: #4338CA;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-header{
+  background-color: var(--primary-color) !important;
+}
+.bg-about{
+  background-color: var(--secondary-color) !important;
+}
+
+/* Additional post  styles can be added below */
+.post-img
+{
+  width:100%;
+height:175px;
+overflow:hidden;
+border-radius: 12px;
+}
+.post-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  object-position: center;
+}
+.post-title a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+.post-rm
+{
+  color: var(--anchor-color);
+  text-decoration: none;;
+}
