@@ -8,6 +8,7 @@ function Home() {
         <>
             <Header />
             <div className='container my-5 '>
+                <h2>Latest Posts</h2>
                 <LatestBlogs />
                 <AboutMe />
             </div>

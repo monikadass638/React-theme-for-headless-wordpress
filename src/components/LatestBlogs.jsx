@@ -16,7 +16,7 @@ function LatestBlogs() {
     }, []);
     return (
         <section>
-            <h2>Latest Posts</h2>
+
             <div className="container mt-3 p-0">
 
                 <div className='row'>
