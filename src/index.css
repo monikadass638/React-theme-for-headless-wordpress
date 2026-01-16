@@ -6,7 +6,7 @@
   --muted-text: #6B7280;
   --card-bg: #FFFFFF;
   --headertags-color:#6B7280;
-  --anchor-color:#072070;
+  --anchor-color:#D4AF37;
 }
 body {
   background-color: var(--bg-color);
@@ -63,4 +63,9 @@ border-radius: 12px;
 {
   color: var(--anchor-color);
   text-decoration: none;;
+}
+/* nav link classes */
+.nav-link.active {
+  color: #ffc107 !important; /* gold */
+  font-weight: 600;
 }
