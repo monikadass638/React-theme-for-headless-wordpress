@@ -1,4 +1,5 @@
 
+import AboutUs from "./pages/AboutUs";
 import BlogList from "./pages/BlogList";
 import BlogSingle from "./pages/BlogSingle";
 import Categories from "./pages/Categories";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/blog" element={<BlogList />}></Route>
         <Route path="/blog/:slug" element={<BlogSingle />}></Route>
         <Route path="/categories" element={<Categories />}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
 
       </Routes>
 

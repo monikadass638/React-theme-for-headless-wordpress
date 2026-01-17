@@ -11,7 +11,7 @@ function Categories() {
             setCategories(data);
         }
         fetchallCategories();
-        console.log(categories);
+
     }, []);
     return (
         <>
