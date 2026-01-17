@@ -21,3 +21,9 @@ export const getPostBYslug = async (slug) => {
   console.log(response);
   return response.json();
 };
+
+//Get all the categories
+export const getALLCAtegories = async () => {
+  const response = await fetch(`${WP_API_URL}categories`);
+  return response.json();
+};

@@ -3,7 +3,7 @@
   --secondary-color: #0A2540;
   --bg-color: #F9FAFB;
   --text-color: #2c467e;
-  --muted-text: #6B7280;
+  --muted-text: #b9bcc4;
   --card-bg: #FFFFFF;
   --headertags-color:#6B7280;
   --anchor-color:#D4AF37;
@@ -75,4 +75,16 @@ border-radius: 12px;
 .nav-link.active {
   color: #ffc107 !important; /* gold */
   font-weight: 600;
+}
+
+/*Cateegory Page css */
+
+.cat-item a
+{
+  color:var(--text-color);
+  text-decoration: none;;
+}
+.cat-item span
+{
+  color: var(--muted-text);
 }

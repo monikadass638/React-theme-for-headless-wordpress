@@ -15,6 +15,7 @@ function BlogSingle() {
         const fetchPost = async () => {
             const data = await getPostBYslug(slug);
             setsinglePost(data);
+            console.log(data);
 
 
         };
