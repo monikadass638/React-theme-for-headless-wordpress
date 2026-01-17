@@ -82,9 +82,18 @@ border-radius: 12px;
 .cat-item a
 {
   color:var(--text-color);
-  text-decoration: none;;
+  text-decoration: none;
+  background-color: #ffc107;
+  border-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  display:inline-block;
+  margin:5px;
+  padding:8px 12px;
+  border-radius: 20px;
+  font-size: smaller;
 }
 .cat-item span
 {
   color: var(--muted-text);
+  font-size: small;
 }

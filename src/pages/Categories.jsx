@@ -25,7 +25,7 @@ function Categories() {
                         categories.map((category, index) => (
                             <div className='col-md-4 mb-3 cat-item fs-5 ' key={index}>
                                 <a href={category.link}>{category.name}</a>
-                                <span className='text-muted fs-5 ms-1'>({category.count} Posts)</span></div>
+                                <span className='text-muted ms-1'>({category.count} Posts)</span></div>
                         ))
                     }
                 </div>
