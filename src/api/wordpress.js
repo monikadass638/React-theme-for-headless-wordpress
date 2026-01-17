@@ -27,3 +27,9 @@ export const getALLCAtegories = async () => {
   const response = await fetch(`${WP_API_URL}categories`);
   return response.json();
 };
+
+//Get The about Us page content
+export const getAboutPage = async () => {
+  const response = await fetch(`${WP_API_URL}pages/?slug=about-us`);
+  return response.json();
+};
