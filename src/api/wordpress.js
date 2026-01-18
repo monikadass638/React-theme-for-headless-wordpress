@@ -35,3 +35,7 @@ export const getAboutPage = async () => {
 };
 
 //Get the Contact Page content
+export const getContactPage = async () => {
+  const response = await fetch(`${WP_API_URL}pages/?slug=contact-us`);
+  return response.json();
+};
