@@ -33,6 +33,7 @@ function LatestBlogs() {
                     }
                 </div>
             </div>
+            <hr className="hr-hero my-5 border-2 opacity-75"></hr>
         </section >
     )
 }

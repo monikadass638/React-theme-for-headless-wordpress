@@ -9,7 +9,7 @@ function Header() {
 
                     {/* Logo */}
                     <Link className="navbar-brand fw-bold" to="/">
-                        Monika<span className="text-warning">Blog</span>
+                        Punit<span className="text-warning">Blog</span>
                     </Link>
 
                     {/* Toggler */}

@@ -7,6 +7,7 @@
   --card-bg: #FFFFFF;
   --headertags-color:#6B7280;
   --anchor-color:#D4AF37;
+  --button-text-color: #FFFFFF;
 }
 body {
   background-color: var(--bg-color);
@@ -19,14 +20,25 @@ p{
 h1,h2,h3,h4,h5,h6{
   color: var(--headertags-color) !important;
 }
-.btn-primary {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+.btn-primary-gold {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var( --button-text-color) !important;
 }
 
-.btn-primary:hover {
-  background-color: #4338CA;
-  border-color: #4338CA;
+.btn-primary-gold:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-secondary-blue {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+   color: var( --button-text-color) !important;
+}
+.btn-secondary-blue:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
 }
 
 .text-primary {
@@ -96,4 +108,10 @@ border-radius: 12px;
 {
   color: var(--muted-text);
   font-size: small;
+}
+.hr-hero
+{
+  color: var(--primary-color);
+  box-shadow: #3747d4 0px 4px 12px;
+  height:2px
 }
