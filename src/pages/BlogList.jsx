@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import LatestBlogs from '../components/LatestBlogs'
 import { getallPosts } from '../api/wordpress';
 import BlogCard from '../components/BlogCard';
+import Footer from '../components/Footer';
 
 function BlogList() {
     const [allPosts, setallPosts] = useState([]);
@@ -11,6 +12,7 @@ function BlogList() {
         const fetchallposts = async () => {
             const response = await getallPosts();
             setallPosts(response);
+            console.log(response);
         }
         fetchallposts();
 
@@ -25,7 +27,7 @@ function BlogList() {
                     <div className="row my-5">
                         {
                             allPosts.map((postData, index) => (
-                                <div className='col-md-3 mb-3' key={index}>
+                                <div className='col-md-4 mb-4' key={index}>
                                     <BlogCard post={postData} />
                                 </div>
                             ))
@@ -36,6 +38,7 @@ function BlogList() {
 
 
             </section >
+            <Footer />
         </>
 
 

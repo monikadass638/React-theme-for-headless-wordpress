@@ -22,7 +22,7 @@ function LatestBlogs() {
                 <div className='row'>
                     {
                         latestPost.map((postData, index) => (
-                            <div className='col-md-3 my-3' key={index}>
+                            <div className='col-md-4 my-3' key={index}>
 
                                 <BlogCard post={postData} />
                             </div>
@@ -33,7 +33,7 @@ function LatestBlogs() {
                     }
                 </div>
             </div>
-            <hr className="hr-hero my-5 border-2 opacity-75"></hr>
+
         </section >
     )
 }
